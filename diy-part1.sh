@@ -20,7 +20,7 @@ sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf
 #passwall的依赖
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 #vssr的依赖
-sed -i '$a src-git lua-maxminddb https://github.com/jerrykuku/lua-maxminddb' feeds.conf.default
+#sed -i '$a src-git lua-maxminddb https://github.com/jerrykuku/lua-maxminddb' feeds.conf.default
 
 
 # HelloWorld ,要配合Argon主题https://github.com/jerrykuku/luci-app-vssr
