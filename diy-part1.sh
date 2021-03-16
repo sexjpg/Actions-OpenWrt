@@ -17,6 +17,7 @@
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-# https://github.com/fw876/helloworld
-# sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
+# HelloWorld ,要配合Argon主题https://github.com/jerrykuku/luci-app-vssr
+sed -i '$a src-git helloworld https://github.com/jerrykuku/luci-app-vssr' feeds.conf.default
+sed -i '$a src-git helloworld https://github.com/jerrykuku/luci-theme-argon' feeds.conf.default
