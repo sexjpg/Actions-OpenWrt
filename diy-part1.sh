@@ -20,4 +20,4 @@
 
 # HelloWorld ,要配合Argon主题https://github.com/jerrykuku/luci-app-vssr
 sed -i '$a src-git helloworld https://github.com/jerrykuku/luci-app-vssr' feeds.conf.default
-sed -i '$a src-git helloworld https://github.com/jerrykuku/luci-theme-argon' feeds.conf.default
+# sed -i '$a src-git helloworld https://github.com/jerrykuku/luci-theme-argon' feeds.conf.default
