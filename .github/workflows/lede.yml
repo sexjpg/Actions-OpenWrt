@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: mt7621
+name: openwrt_lede
 
 on:
   repository_dispatch:
@@ -37,12 +37,12 @@ on:
       UPLOAD_WETRANSFER:
         description: 'UPLOAD_WETRANSFER'
         required: false
-        default: 'true'
+        default: 'false'
 
       UPLOAD_RELEASE:
         description: 'UPLOAD_RELEASE'
         required: false
-        default: 'true'
+        default: 'false'
         
       CONFIG_FILE:
         description: 'CONFIG_FILE'
