@@ -25,4 +25,10 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # HelloWorld ,要配合Argon主题https://github.com/jerrykuku/luci-app-vssr
 # sed -i '$a src-git helloworld https://github.com/jerrykuku/luci-app-vssr' feeds.conf.default
-sed -i '$a src-git themeargon https://github.com/jerrykuku/luci-theme-argon' feeds.conf.default
+
+
+cd openwrt/packages && mkdir diy && cd diy 
+git clone https://github.com/jerrykuku/luci-theme-argon diy_luci-theme-argon
+git clone https://github.com/tty228/luci-app-serverchan diy_luci-app-serverchan
+
+# sed -i '$a src-git themeargon https://github.com/jerrykuku/luci-theme-argon' feeds.conf.default
