@@ -28,7 +28,7 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # sed -i '$a src-git helloworld https://github.com/jerrykuku/luci-app-vssr' feeds.conf.default
 
 
-cd packages && mkdir diy && cd diy 
+cd package && mkdir diy && cd diy 
 git clone https://github.com/jerrykuku/luci-theme-argon diy_luci-theme-argon
 git clone https://github.com/tty228/luci-app-serverchan diy_luci-app-serverchan
 
